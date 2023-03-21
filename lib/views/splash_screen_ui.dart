@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class MyWidget extends StatefulWidget {
-  const MyWidget({super.key});
+class ScreenUI extends StatefulWidget {
+  const ScreenUI({super.key});
 
   @override
-  State<MyWidget> createState() => _MyWidgetState();
+  State<ScreenUI> createState() => _ScreenUIState();
 }
 
-class _MyWidgetState extends State<MyWidget> {
+class _ScreenUIState extends State<ScreenUI> {
   @override
   Widget build(BuildContext context) {
     return Scaffold();
